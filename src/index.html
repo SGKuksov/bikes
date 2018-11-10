@@ -5,97 +5,296 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.min.css">
-  <title>Document</title>
+  <title>Веломагазин Bike</title>
 </head>
 <body>
-  <header>
-    <div class="container">
+  <header class="page-header">
+    <div class="container  page-header__container">
       <div class="row">
+        <div class="page-header__logo col-2"></div>
 
+        <nav class="main-nav  page-header__nav col-8">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="#">Доставка</a></li>
+            <li class="main-nav__item"><a href="#">Блог</a></li>
+            <li class="main-nav__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html" class="page-header__cart cart col-2">
+          Корзина <span class="cart__price">30 000 P</span><span class="cart__counter">2</span>
+        </a>
       </div>
     </div>
   </header>
-
-  <div class="page-content">
-    <div class="container">
+  <section class="promo">
+    <div class="container  promo__container">
       <div class="row">
-        <aside class="sidebar col-3">
-          <div class="sidebar__inner">
-
-          </div>
-        </aside>
-        <main class="main col-9">
-          <div class="row">
-            <div class="col-4">
-              <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-4">
-              <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-4">
-              <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-4">
-                <div class="card">
-                  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4">
-                <div class="card">
-                  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-4">
-                <div class="card">
-                  <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_166f5e1ae08%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_166f5e1ae08%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </main>
+        <div class="promo__inner">
+          <h1 class="promo__title">Наш веломагазин</h1>
+          <p class="promo__title">Нужно больше велосипедов для бога велосипедов</p>
+        </div>
       </div>
     </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <aside class="sidebar col-3">
+        <div class="sidebar__inner">
+          <div class="sidebar__filter filter">
+            <button class="btn  filter__btn">Цена</button>
+            <button class="btn  filter__btn">Название</button>
+          </div>
+          <div class="sidebar__banner"></div>
+          <div class="sidebar__banner"></div>
+          <div class="sidebar__banner"></div>
+        </div>
+      </aside>
+      <main class="page-content col-9">
+        <h2 class="page-content__cards-title">Каталог</h2>
+
+        <div class="page-content__cards">
+          <article class="card">
+            <button class="btn card__favorite">Добавить в избранное
+              <svg class="close-icon" width="30" height="30">
+                <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+              </svg>
+            </button>
+            <div class="card__img">
+              <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+            </div>
+            <div class="card__inner">
+              <h3 class="card__title">Велосипед 1</h3>
+              <span class="card__price">15 000 P</span>
+
+              <div class="card__btn-block">
+                <button class="btn card__btn">Купить</button>
+                <a href="item.html" class="btn card__more">Подробнее</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+              <button class="btn card__favorite">Добавить в избранное
+                <svg class="close-icon" width="30" height="30">
+                  <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                </svg>
+              </button>
+              <div class="card__img">
+                <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+              </div>
+              <div class="card__inner">
+                <h3 class="card__title">Велосипед 1</h3>
+                <span class="card__price">15 000 P</span>
+
+                <div class="card__btn-block">
+                  <button class="btn card__btn">Купить</button>
+                  <a href="item.html" class="btn card__more">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+                <button class="btn card__favorite">Добавить в избранное
+                  <svg class="close-icon" width="30" height="30">
+                    <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                  </svg>
+                </button>
+                <div class="card__img">
+                  <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                </div>
+                <div class="card__inner">
+                  <h3 class="card__title">Велосипед 1</h3>
+                  <span class="card__price">15 000 P</span>
+
+                  <div class="card__btn-block">
+                    <button class="btn card__btn">Купить</button>
+                    <a href="item.html" class="btn card__more">Подробнее</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card">
+                  <button class="btn card__favorite">Добавить в избранное
+                    <svg class="close-icon" width="30" height="30">
+                      <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                    </svg>
+                  </button>
+                  <div class="card__img">
+                    <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                  </div>
+                  <div class="card__inner">
+                    <h3 class="card__title">Велосипед 1</h3>
+                    <span class="card__price">15 000 P</span>
+
+                    <div class="card__btn-block">
+                      <button class="btn card__btn">Купить</button>
+                      <a href="item.html" class="btn card__more">Подробнее</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="card">
+                    <button class="btn card__favorite">Добавить в избранное
+                      <svg class="close-icon" width="30" height="30">
+                        <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                      </svg>
+                    </button>
+                    <div class="card__img">
+                      <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                    </div>
+                    <div class="card__inner">
+                      <h3 class="card__title">Велосипед 1</h3>
+                      <span class="card__price">15 000 P</span>
+
+                      <div class="card__btn-block">
+                        <button class="btn card__btn">Купить</button>
+                        <a href="item.html" class="btn card__more">Подробнее</a>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article class="card">
+                      <button class="btn card__favorite">Добавить в избранное
+                        <svg class="close-icon" width="30" height="30">
+                          <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                        </svg>
+                      </button>
+                      <div class="card__img">
+                        <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                      </div>
+                      <div class="card__inner">
+                        <h3 class="card__title">Велосипед 1</h3>
+                        <span class="card__price">15 000 P</span>
+
+                        <div class="card__btn-block">
+                          <button class="btn card__btn">Купить</button>
+                          <a href="item.html" class="btn card__more">Подробнее</a>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article class="card">
+                        <button class="btn card__favorite">Добавить в избранное
+                          <svg class="close-icon" width="30" height="30">
+                            <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                          </svg>
+                        </button>
+                        <div class="card__img">
+                          <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                        </div>
+                        <div class="card__inner">
+                          <h3 class="card__title">Велосипед 1</h3>
+                          <span class="card__price">15 000 P</span>
+
+                          <div class="card__btn-block">
+                            <button class="btn card__btn">Купить</button>
+                            <a href="item.html" class="btn card__more">Подробнее</a>
+                          </div>
+                        </div>
+                      </article>
+
+                      <article class="card">
+                          <button class="btn card__favorite">Добавить в избранное
+                            <svg class="close-icon" width="30" height="30">
+                              <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                            </svg>
+                          </button>
+                          <div class="card__img">
+                            <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                          </div>
+                          <div class="card__inner">
+                            <h3 class="card__title">Велосипед 1</h3>
+                            <span class="card__price">15 000 P</span>
+
+                            <div class="card__btn-block">
+                              <button class="btn card__btn">Купить</button>
+                              <a href="item.html" class="btn card__more">Подробнее</a>
+                            </div>
+                          </div>
+                        </article>
+
+                        <article class="card">
+                            <button class="btn card__favorite">Добавить в избранное
+                              <svg class="close-icon" width="30" height="30">
+                                <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                              </svg>
+                            </button>
+                            <div class="card__img">
+                              <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                            </div>
+                            <div class="card__inner">
+                              <h3 class="card__title">Велосипед 1</h3>
+                              <span class="card__price">15 000 P</span>
+
+                              <div class="card__btn-block">
+                                <button class="btn card__btn">Купить</button>
+                                <a href="item.html" class="btn card__more">Подробнее</a>
+                              </div>
+                            </div>
+                          </article>
+
+                          <article class="card">
+                              <button class="btn card__favorite">Добавить в избранное
+                                <svg class="close-icon" width="30" height="30">
+                                  <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                                </svg>
+                              </button>
+                              <div class="card__img">
+                                <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                              </div>
+                              <div class="card__inner">
+                                <h3 class="card__title">Велосипед 1</h3>
+                                <span class="card__price">15 000 P</span>
+
+                                <div class="card__btn-block">
+                                  <button class="btn card__btn">Купить</button>
+                                  <a href="item.html" class="btn card__more">Подробнее</a>
+                                </div>
+                              </div>
+                            </article>
+
+                            <article class="card">
+                                <button class="btn card__favorite">Добавить в избранное
+                                  <svg class="close-icon" width="30" height="30">
+                                    <use xlink:href="img/sprite-svg.svg#heart-empty"></use>
+                                  </svg>
+                                </button>
+                                <div class="card__img">
+                                  <img src="https://via.placeholder.com/200x150" alt="фото" height="150" width="200">
+                                </div>
+                                <div class="card__inner">
+                                  <h3 class="card__title">Велосипед 1</h3>
+                                  <span class="card__price">15 000 P</span>
+
+                                  <div class="card__btn-block">
+                                    <button class="btn card__btn">Купить</button>
+                                    <a href="item.html" class="btn card__more">Подробнее</a>
+                                  </div>
+                                </div>
+                              </article>
+        </div>
+      </main>
+    </div>
   </div>
+  <footer class="page-footer">
+    <div class="container  page-footer__container">
+      <div class="row">
+        <div class="page-footer__logo col-2"></div>
+
+        <nav class="page-footer__nav footer-nav col-10">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#">Доставка</a></li>
+            <li class="footer-nav__item"><a href="#">Блог</a></li>
+            <li class="footer-nav__item"><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item"><a href="#">Правовая информация</a></li>
+            <li class="footer-nav__item"><a href="#">Партнеры</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/script.min.js"></script>
 </body>

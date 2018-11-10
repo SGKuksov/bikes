@@ -1,6 +1,19 @@
 .page-footer {
+  margin-top: 30px;
+  border-top: 1px solid $red;
 
   &__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
+  &__nav {
+    display: flex;
+  }
+
+  &__logo {
+    width: 150px;
+    height: 50px;
+    background-color: #ccc;
   }
 }

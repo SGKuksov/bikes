@@ -1,0 +1,11 @@
+.page-content {
+
+  &__title {
+    font-size: 50px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
