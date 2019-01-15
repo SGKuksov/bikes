@@ -1,13 +1,23 @@
 .card {
   width: 30%;
   margin: 1%;
+  border: 1px solid $red;
+  overflow: hidden;
 
   &__img {
-
-  }
-
-  &__img img {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      min-height: 1px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
   }
 
   &__inner {
@@ -22,7 +32,7 @@
   }
 
   &__price {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
   }
 
@@ -31,7 +41,18 @@
   }
 
   &__btn {
-    margin-right: 10px;
+    height: 40px;
+    line-height: 28px;
+    display: inline-block;
+    background-color: $red;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 40px;
+
+    svg {
+      margin-right: 5px;
+      fill: #fff;
+    }
 
     &:last-child {
       margin-right: 0;
@@ -55,6 +76,9 @@
   }
 
   &__more {
+    height: 40px;
+    line-height: 28px;
+    border-radius: 40px;
 
     &:hover {
       background-color: transparent;

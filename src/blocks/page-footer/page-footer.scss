@@ -1,6 +1,7 @@
 .page-footer {
   margin-top: 30px;
   border-top: 1px solid $red;
+  flex: 0 0 auto;
 
   &__container {
     padding-top: 20px;
@@ -14,6 +15,7 @@
   &__logo {
     width: 150px;
     height: 50px;
-    background-color: #ccc;
+    background-color: $gray;
+    border: 1px solid $red;
   }
 }
